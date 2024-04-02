@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Services</title>
+    <link rel="stylesheet" type="text/css" href="HOME.CSS">
+    <style>
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+        }
+        .gallery figure {
+            text-align: center;
+        }
+        .gallery figure img {
+            width: 350px;
+            height: 150px;
+        }
+        .gallery figure figcaption {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Canopy Mens Beauty Salon</h1>
+    <nav>
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Products.html">Products</a></li>
+            <li><a href="Services.html">Services</a></li>
+            <li><a href="Registration.html">Registration</a></li>
+            <li><a href="Appointment.html">Appointment</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="gallery">
+    <figure>
+        <a href="Appointment.html?service=Hair%20Style">
+            <img src="haircut.png" title="Hair Style" alt="Hair Style" />
+            <figcaption>Hair Style</figcaption>
+        </a>
+    </figure>
+    <figure>
+        <a href="Appointment.html?service=Facial%20Care">
+            <img src="https://voguemensalon.com/wp-content/uploads/2022/04/Facial-Care.jpg" title="Facial Care" alt="Facial Care" />
+            <figcaption>Facial Care</figcaption>
+        </a>
+    </figure>
+    <figure>
+        <a href="Appointment.html?service=Nail%20Care">
+            <img src="nailcare.png" title="Nail Care" alt="Nails Care" />
+            <figcaption>Nail Care</figcaption>
+        </a>
+    </figure>
+    <figure>
+        <a href="Appointment.html?service=Waxing%20">
+            <img src="https://voguemensalon.com/wp-content/uploads/2022/04/Waxing.jpg" title="Waxing" alt="Waxing" />
+            <figcaption>Waxing</figcaption>
+        </a>
+    </figure>
+</div>
+
+<footer>
+    <div class="location">
+        <p>Nairobi, Moi Avenue, Biashara Plaza, 6th floor</p>
+        <p>CMBS.@gmail.com</p>
+        <p>0742538757</p>
+    </div>
+
+    <h2>Customer Feedback</h2>
+    <p>Your Opinion Means A Lot To Us </p>
+    <p>We would love to hear your thoughts on your recent experience with us. Did everything go smoothly? Was your stylist amazing? Is there anything we can improve upon?</p>
+    <p>We're constantly striving to make our products and services top-notch, and your feedback is incredibly valuable in helping us do so.</p>
+</footer>
+
+</body>
+</html>
