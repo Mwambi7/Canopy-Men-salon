@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Products</title>
+  <link rel="stylesheet" type="text/css" href="HOME.CSS">
+	
+</head>
+ <style>
+    .Cover{
+    background-blend-mode: luminosity;
+    }
+    body{
+      background-color: #808080;  
+    }
+    header {
+            background-color: #333; /* Dark grey header */
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            display: inline;
+        } 
+        
+  </style>
+<body>
+	<header>
+	<h1 class="title1">BEARD CARE 101</h1>
+<nav>
+		<ul>
+			<li>
+				<a href="Home.html">Home</a>
+			</li>
+
+			<li>
+				<a href="About.html">About</a>
+			</li>
+
+			<li>
+				<a href="Products.html">Products</a>
+			</li>
+
+			<li>
+				<a href="Services.html">Services</a>
+			</li>
+
+			<li>
+				<a href="registration.html">Registration</a>
+			</li>
+		</ul>
+	</nav>
+	</header>
+    <h2>Select Products</h2>
+    <form action="pay.php" method="post">
+        <div class="box">
+            <img src="wash.png" alt="">
+            <h4>Revuele Wash</h4>
+            <div class="price">Ksh 1200 <input type="checkbox" name="products[]" value="1"></div>
+        </div>
+
+        <div class="box">
+            <img src="hairoil.png" alt="">
+            <h4>Hair & Beard oil</h4>
+            <div class="price">Ksh 2000 <input type="checkbox" name="products[]" value="2"></div>
+        </div>
+
+        <div class="box">
+            <img src="wash1.png" alt="">
+            <h4>Hair & Face Wash</h4>
+            <div class="price">Ksh 1800 <input type="checkbox" name="products[]" value="3"></div>
+        </div>
+
+        <div class="box">
+            <img src="facelotion.png" alt="">
+            <h4>Face Lotion</h4>
+            <div class="price">Ksh 1500 <input type="checkbox" name="products[]" value="4"></div>
+        </div>
+
+        <div class="box">
+            <img src="razorbumptreatment.png" alt="">
+            <h4>Razor Bump Treatment</h4>
+            <div class="price">Ksh 2000 <input type="checkbox" name="products[]" value="5"></div>
+        </div>
+
+        <div class="box">
+    <img src="shampoo.png" alt="">
+    <h4>Shampoo & Conditioner</h4>
+    <div class="price">Ksh 1800 <input type="checkbox" name="products[]" value="6"></div>
+</div>
+
+<div class="box">
+    <img src="facecream.png" alt="">
+    <h4>Face Cream</h4>
+    <div class="price">Ksh 2500 <input type="checkbox" name="products[]" value="7"></div>
+</div>
+
+<div class="box">
+    <img src="beardgrowth.png" alt="">
+    <h4>Beard Growth Oil</h4>
+    <div class="price">Ksh 2200 <input type="checkbox" name="products[]" value="8"></div>
+</div>
+
+<div class="box">
+    <img src="hairremoval.png" alt="">
+    <h4>Hair Removal</h4>
+    <div class="price">Ksh 800 <input type="checkbox" name="products[]" value="9"></div>
+</div>
+
+<div class="box">
+    <img src="growthoil.png" alt="">
+    <h4>Growth Oil</h4>
+    <div class="price">Ksh 2000 <input type="checkbox" name="products[]" value="10"></div>
+</div>
+
+<div class="box">
+    <img src="cleansing.png" alt="">
+    <h4>Cleansing Shampoo</h4>
+    <div class="price">Ksh 900 <input type="checkbox" name="products[]" value="11"></div>
+</div>
+
+<div class="box">
+    <img src="moisturiser.png" alt="">
+    <h4>Moisturiser</h4>
+    <div class="price">Ksh 2100 <input type="checkbox" name="products[]" value="12"></div>
+</div>
+
+<div class="box">
+    <img src="facialhairgrowth.png" alt="">
+    <h4>Facial Hair Growth</h4>
+    <div class="price">Ksh 5000 <input type="checkbox" name="products[]" value="13"></div>
+</div>
+
+<div class="box">
+    <img src="shavingfoam.png" alt="">
+    <h4>Shaving foam</h4>
+    <div class="price">Ksh 2000 <input type="checkbox" name="products[]" value="14"></div>
+</div>
+
+<div class="box">
+    <img src="postshave.png" alt="">
+    <h4>Post Shave Soother</h4>
+    <div class="price">Ksh 1000 <input type="checkbox" name="products[]" value="15"></div>
+</div>
+
+<div class="box">
+    <img src="hairloss.png" alt="">
+    <h4>Shampoo and Conditioner for Hair Loss</h4>
+    <div class="price">Ksh 1250 <input type="checkbox" name="products[]" value="16"></div>
+</div>
+
+<div class="box">
+    <img src="detangler.png" alt="">
+    <h4>Detangler</h4>
+    <div class="price">Ksh 500 <input type="checkbox" name="products[]" value="17"></div>
+</div>
+
+<div class="box">
+    <img src="removal.png" alt="">
+    <h4>Hair Removal</h4>
+    <div class="price">Ksh 300 <input type="checkbox" name="products[]" value="18"></div>
+</div>
+
+<div class="box">
+    <img src="cream.png" alt="">
+    <h4>Face Cream</h4>
+    <div class="price">Ksh 650 <input type="checkbox" name="products[]" value="19"></div>
+</div>
+
+<div class="box">
+    <img src="curlingbutter.png" alt="">
+    <h4>Curling Butter</h4>
+    <div class="price">Ksh 700 <input type="checkbox" name="products[]" value="20"></div>
+</div>
+
+<div class="box">
+    <img src="gel.png" alt="">
+    <h4>Gel</h4>
+    <div class="price">Ksh 300 <input type="checkbox" name="products[]" value="21"></div>
+</div>
+
+<div class="box">
+    <img src="oil.png" alt="">
+    <h4>Beard Conditioning oil</h4>
+    <div class="price">Ksh 400 <input type="checkbox" name="products[]" value="22"></div>
+</div>
+
+<div class="box">
+    <img src="shea.png" alt="">
+    <h4>Leave-in Conditioner</h4>
+    <div class="price">Ksh 400 <input type="checkbox" name="products[]" value="23"></div>
+</div>
+
+<div class="box">
+    <img src="argan.png" alt="">
+    <h4>Argan Oil Shampoo</h4>
+    <div class="price">Ksh 500 <input type="checkbox" name="products[]" value="24"></div>
+</div>
+
+<input type="submit" value="Pay for Selected Products">
+    </form>
+	
+</body>
+</html>
